@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* div 1 */
+#div1{
+    position: relative;
+}
+#div1-img{
+    width: 100%;
+    height:700px;
+}
+#nav-div{
+    position: absolute;
+    top:0%;
+    width: 100%;
+   background: transparent;
+}
+#nav-logo{
+    color: white;
+    font-size: 25px;
+}
+#nav-logo:hover{
+    color: #E55604;
+}
+#nav-ul{
+    margin-left: 60%;
+}
+#nav-a{
+    padding: 15px;
+    color: white;
+}
+#nav-a:hover{
+    color: #E55604;
+}
+#landing-content{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+#landing-h{
+    color: #E55604;
+    font-size: 120px;
+   
+}
+#landing-p{
+    color: white;
+    font-size: 40px;
+   margin-top: -100px;
+   margin-left: -50px;
+}
+#landing-a{
+    color: white;
+    text-decoration: none;
+    margin-left: 30%;
+    padding: 5px;
+    border: solid 1px #E55604;
+}
+#landing-a:hover{
+    border: solid 1px #E55604;
+    background-color:#E55604 ;
+}
+#div2-img{
+    margin-left:30% ;
+}
+#div2-content{
+   text-align: start;
+   margin-left: -10%;
+}
+#div2-h{
+    color: #E55604;
+    font-size: 40px;
+}
+#div2-a{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    border: solid 1px #E55604;
+}
+#div2-a:hover{
+    color: white;
+    background-color: #E55604;
+}
+#symbol-div{
+    margin-top: -40%;
+    margin-left: 10%;
+    color: #E55604;
+    text-align: center;
+}
+#symbol-p2{
+    color: black;
+    text-align: center;
+    font-weight: 700;
+}
+#color-div{
+    margin-right: -70px;
+
+}
+
+#serviceimg-1{
+    width: 75%;
+    height: 30%;
+    margin: 5%;
+}
+#serviceimg-2{
+    height: 65%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+#serviceimg-3{
+    width: 75%;
+    height: 30%;
+    margin: 5%;
+}
+/* BLOG */
+#blog-head{
+    text-align: center;
+    margin-top: -10%;
+}
+#b-head{
+    font-size: 45px;
+    color: #E55604;
+}
+#blog{
+    margin: 3rem 6rem;
+}
+#blog-img{
+    width: 95%;
+    height: 80%;
+    object-fit: contain;
+    text-align: center;
+    box-shadow: 5px 5px 5px #E55604 ;
+}
+#blog-p{
+    text-align: justify;
+    margin-top: 2rem;
+  
+}
+#blog-h{
+    color: #E55604;
+}
+#footerlogo{
+    color: #E55604;
+}
+#footer2-h{
+    text-align: center;
+    padding: 5px;
+}
+#footer2-btn{
+    text-align: center;
+    margin: 1rem;
+    
+}
+#footer2-a{
+    border: solid 1px #E55604 ;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+#footer2-a:hover{
+    background-color:#E55604 ;
+    color: white;
+}
+#footer3{
+    text-align: center;
+}
+#footer3-h{
+    text-align: center;
+}
+#footer3-i{
+    font-size: 20px;
+    padding: 10px;
+}
+#footer3-i:hover{
+    color: #E55604;
+}
+
+
+/* MEDIA QUERIES */
+@media(max-width:680px){
+    #div1-img{
+        width: 100%;
+        height:200px;
+        margin-left: 0;
+    }
+    #nav-div{
+        background-color: white;
+       
+    }
+    #nav-logo{
+        color: white;
+        font-size: 15px;
+        
+    }
+    #nav-a{
+        padding: 15px;
+        color: black;
+    }
+    #landing-content{
+        position: absolute;
+        top: 15%;
+        left: 30%;
+    }
+    #landing-h{
+        color: #E55604;
+        font-size: 60px;
+       
+    }
+    #landing-p{
+        color: white;
+        font-size: 20px;
+       margin-top: -60px;
+       margin-left: -30px;
+    }
+    #landing-a{
+        margin-left: 20%;
+        padding: 2px;
+    }
+    #div2-content{
+        text-align: center;
+        margin-left: 5%;
+        margin-top: -80%;
+     }
+     #div2-h{
+         color: #E55604;
+         font-size: 35px;
+     }
+     #div2-a{
+         color: black;
+         text-decoration: none;
+         padding: 5px;
+         border: solid 1px #E55604;
+     }
+     #symbol-div{
+        margin-top: 30%;
+        margin-left: 2%;
+        color: #E55604;
+        text-align: center;
+    }
+    #symbol-class{
+        border: solid 1px #E55604 ;
+        padding: 5px;
+        box-shadow: 2px 2px 2px black;
+        margin-top: 10px;
+    }
+    #serviceimg-1{
+        width: 90%;
+        height: 30%;
+        margin: 2%;
+        text-align: center;
+    }
+    #serviceimg-2{
+        height: 65%;
+        margin-top: -10%;
+        margin-left: 12%;
+    }
+    #serviceimg-3{
+        width: 90%;
+        height: 30%;
+        margin: 2%;
+        text-align: center;
+       
+    }
+
+
+
+}
